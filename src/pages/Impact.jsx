@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from 'react';
 
 const Statistics = lazy(() => import('../components/Statistics'));
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 // Brand Colors
 const colors = {
@@ -363,7 +364,7 @@ const Impact = () => {
         <p>
           The Board's Monitoring &amp; Evaluation Director tracks enrolment, pass rates, retention, memorisation milestones and teacher-to-student ratios.
         </p>
-        <Button href="/donate">Support Our Work</Button>
+        <Button as={Link} to="/donate">Support Our Work</Button>
       </CtaSection>
     </PageWrapper>
   );

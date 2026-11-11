@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 // Brand Colors
 const colors = {
@@ -383,7 +384,7 @@ const WhatWeDo = () => {
         <p>
           Child sponsorship is available to help families who cannot pay school fees: $25 per child per month, or $250 per year.
         </p>
-        <Button href="/donate">Sponsor a Child</Button>
+        <Button as={Link} to="/donate#sponsor-a-child">Sponsor a Child</Button>
       </CtaSection>
     </PageWrapper>
   );

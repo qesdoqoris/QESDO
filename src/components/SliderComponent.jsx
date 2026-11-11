@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -451,7 +452,7 @@ const SliderComponent = () => {
               <SlideContents>
                 <SlideHeading>{slide.heading}</SlideHeading>
                 <SlideDescription>{slide.description}</SlideDescription>
-                <SlideButton href={slide.buttonLink}>
+                <SlideButton as={Link} to={slide.buttonLink}>
                   {slide.buttonText}
                 </SlideButton>
               </SlideContents>

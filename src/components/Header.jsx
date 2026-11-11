@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { FaEnvelope, FaHandHoldingHeart, FaPhoneAlt } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
 
@@ -222,8 +223,9 @@ const Header = () => {
           </ContactInfo>
         </div>
         
-        <ContactUsLink 
-          href="/donate"
+        <ContactUsLink
+          as={Link}
+          to="/donate"
           aria-label="Donate to QESDO"
         >
           <FaHandHoldingHeart />

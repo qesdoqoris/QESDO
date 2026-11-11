@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { FiMenu, FiX } from 'react-icons/fi';
 import logo from '../assets/qesdo-logo.png';
@@ -197,28 +198,28 @@ const Navigation = () => {
 
       <NavList open={open}>
         <NavItem>
-          <a href="/" onClick={() => setOpen(false)}>Home</a>
+          <Link to="/" onClick={() => setOpen(false)}>Home</Link>
         </NavItem>
         <NavItem>
-          <a href="/about-us" onClick={() => setOpen(false)}>About Us</a>
+          <Link to="/about-us" onClick={() => setOpen(false)}>About Us</Link>
         </NavItem>
         <NavItem>
-          <a href="/what-we-do" onClick={() => setOpen(false)}>What We Do</a>
+          <Link to="/what-we-do" onClick={() => setOpen(false)}>What We Do</Link>
         </NavItem>
         <NavItem>
-          <a href="/impact" onClick={() => setOpen(false)}>Impact</a>
+          <Link to="/impact" onClick={() => setOpen(false)}>Impact</Link>
         </NavItem>
         <NavItem>
-          <a href="/get-support" onClick={() => setOpen(false)}>Get Support</a>
+          <Link to="/get-support" onClick={() => setOpen(false)}>Get Support</Link>
         </NavItem>
         <NavItem>
-          <a href="/get-involved" onClick={() => setOpen(false)}>Get Involved</a>
+          <Link to="/get-involved" onClick={() => setOpen(false)}>Get Involved</Link>
         </NavItem>
         <NavItem>
-          <a href="/news" onClick={() => setOpen(false)}>News</a>
+          <Link to="/news" onClick={() => setOpen(false)}>News</Link>
         </NavItem>
         <NavItem>
-          <a href="/contact-us" onClick={() => setOpen(false)}>Contact Us</a>
+          <Link to="/contact-us" onClick={() => setOpen(false)}>Contact Us</Link>
         </NavItem>
       </NavList>
     </Nav>

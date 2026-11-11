@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled, { keyframes } from 'styled-components';
 import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
@@ -290,23 +291,23 @@ const Footer = () => {
           <FooterSection>
             <h4>Quick Links</h4>
             <LinksList>
-              <LinkItem><a href="/">Home</a></LinkItem>
-              <LinkItem><a href="/about-us">About Us</a></LinkItem>
-              <LinkItem><a href="/what-we-do">What We Do</a></LinkItem>
-              <LinkItem><a href="/impact">Impact</a></LinkItem>
-              <LinkItem><a href="/get-support">Get Support</a></LinkItem>
-              <LinkItem><a href="/news">News</a></LinkItem>
+              <LinkItem><Link to="/">Home</Link></LinkItem>
+              <LinkItem><Link to="/about-us">About Us</Link></LinkItem>
+              <LinkItem><Link to="/what-we-do">What We Do</Link></LinkItem>
+              <LinkItem><Link to="/impact">Impact</Link></LinkItem>
+              <LinkItem><Link to="/get-support">Get Support</Link></LinkItem>
+              <LinkItem><Link to="/news">News</Link></LinkItem>
             </LinksList>
           </FooterSection>
 
           <FooterSection>
             <h4>Support Our Work</h4>
             <LinksList>
-              <LinkItem><a href="/donate">Donate</a></LinkItem>
-              <LinkItem><a href="/donate">Sponsor a Child</a></LinkItem>
-              <LinkItem><a href="/get-involved">Partner With Us</a></LinkItem>
-              <LinkItem><a href="/get-involved">Volunteer</a></LinkItem>
-              <LinkItem><a href="/contact-us">Contact Us</a></LinkItem>
+              <LinkItem><Link to="/donate">Donate</Link></LinkItem>
+              <LinkItem><Link to="/donate#sponsor-a-child">Sponsor a Child</Link></LinkItem>
+              <LinkItem><Link to="/get-involved">Partner With Us</Link></LinkItem>
+              <LinkItem><Link to="/get-involved">Volunteer</Link></LinkItem>
+              <LinkItem><Link to="/contact-us">Contact Us</Link></LinkItem>
             </LinksList>
           </FooterSection>
         </FooterGrid>
