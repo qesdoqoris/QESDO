@@ -1,5 +1,0 @@
-# Missing build files must 404, not fall back to the HTML page
-/assets/*  /404.html  404
-
-# Single-page app: let React Router handle every other path
-/*  /index.html  200
