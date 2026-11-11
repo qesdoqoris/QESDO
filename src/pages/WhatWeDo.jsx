@@ -172,6 +172,21 @@ const ServiceFeatures = styled.ul`
   }
 `;
 
+const ServiceLink = styled.a`
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: ${colors.primary};
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid ${colors.secondary};
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: ${colors.primaryLight};
+  }
+`;
+
 const ApproachSection = styled.div`
   background: ${colors.surface};
   padding: 4rem 2rem;
@@ -276,7 +291,8 @@ const WhatWeDo = () => {
         'Academic teaching and character development',
         'Delivered by qualified teachers',
         'Led by Director Abdiwahab Wadar Amey'
-      ]
+      ],
+      website: { label: 'Visit the QORIS website', url: 'https://www.qoris.org/' }
     },
     {
       id: 2,
@@ -362,6 +378,17 @@ const WhatWeDo = () => {
                 <li key={index}>{feature}</li>
               ))}
             </ServiceFeatures>
+            {service.website && (
+              <ServiceLink
+                href={service.website.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${service.website.label} (opens in a new tab)`}
+              >
+                {service.website.label}
+                <span aria-hidden="true"> ↗</span>
+              </ServiceLink>
+            )}
           </ServiceCard>
         ))}
       </ServicesGrid>
