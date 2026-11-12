@@ -73,7 +73,7 @@ const ImageWrapper = styled.div`
   background-color: #ddd;
   background-image: url(${({ src }) => src});
   background-size: cover;
-  background-position: center;
+  background-position: ${({ $position }) => $position || 'center'};
 `;
 
 const NewsContent = styled.div`
@@ -158,7 +158,7 @@ const News = () => {
               ? { href: item.link, target: '_blank', rel: 'noopener noreferrer' }
               : { as: 'article' })}
           >
-            <ImageWrapper src={item.image} role="img" aria-label={item.title} />
+            <ImageWrapper src={item.image} $position={item.imagePosition} role="img" aria-label={item.title} />
             <NewsContent>
               <NewsTitle>{item.title}</NewsTitle>
               <NewsMeta>{item.date ? <>{item.category} &middot; {item.date}</> : item.category}</NewsMeta>
