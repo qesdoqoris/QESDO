@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t">
+  <title id="t">Illustration of a community fundraising evening with a heart over an open book</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122e6b"/>
+      <stop offset="1" stop-color="#2a5bb5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#sky)"/>
+  <circle cx="400" cy="170" r="220" fill="url(#glow)"/>
+  <!-- string lights -->
+  <path d="M0 40 Q200 110 400 50 T800 40" fill="none" stroke="#8ccbf0" stroke-width="2" opacity="0.6"/>
+  <g fill="#ffd27a">
+    <circle cx="60" cy="58" r="5"/><circle cx="130" cy="76" r="5"/><circle cx="200" cy="80" r="5"/>
+    <circle cx="270" cy="72" r="5"/><circle cx="340" cy="58" r="5"/><circle cx="460" cy="44" r="5"/>
+    <circle cx="530" cy="40" r="5"/><circle cx="600" cy="44" r="5"/><circle cx="670" cy="50" r="5"/><circle cx="740" cy="46" r="5"/>
+  </g>
+  <!-- heart in hands -->
+  <g transform="translate(400 175)">
+    <path d="M0 40 C-60 0 -70 -45 -38 -60 C-18 -70 -4 -58 0 -46 C4 -58 18 -70 38 -60 C70 -45 60 0 0 40Z" fill="#5bb4e8" stroke="#ffffff" stroke-width="4"/>
+    <path d="M-110 60 Q-70 40 -40 60 L0 78 L40 60 Q70 40 110 60 L110 78 Q60 70 30 88 L0 100 L-30 88 Q-60 70 -110 78Z" fill="#f2c14e"/>
+  </g>
+  <!-- ground -->
+  <path d="M0 330 Q400 300 800 330 L800 400 L0 400Z" fill="#0d2350"/>
+  <!-- crowd silhouettes -->
+  <g fill="#0a1a3d">
+    <g transform="translate(70 300)"><circle r="18" cy="-38"/><rect x="-24" y="-20" width="48" height="80" rx="22"/></g>
+    <g transform="translate(140 312)"><circle r="16" cy="-34"/><rect x="-21" y="-18" width="42" height="70" rx="20"/></g>
+    <g transform="translate(210 298)"><circle r="19" cy="-40"/><path d="M-30 70 L-22 -18 Q0 -26 22 -18 L30 70Z"/></g>
+    <g transform="translate(285 310)"><circle r="17" cy="-36"/><rect x="-23" y="-19" width="46" height="74" rx="21"/></g>
+    <g transform="translate(515 310)"><circle r="17" cy="-36"/><path d="M-30 70 L-22 -18 Q0 -26 22 -18 L30 70Z"/></g>
+    <g transform="translate(590 298)"><circle r="19" cy="-40"/><rect x="-25" y="-20" width="50" height="82" rx="23"/></g>
+    <g transform="translate(660 312)"><circle r="16" cy="-34"/><path d="M-28 70 L-20 -18 Q0 -25 20 -18 L28 70Z"/></g>
+    <g transform="translate(730 300)"><circle r="18" cy="-38"/><rect x="-24" y="-20" width="48" height="80" rx="22"/></g>
+  </g>
+  <!-- raised hands -->
+  <g stroke="#0a1a3d" stroke-width="10" stroke-linecap="round">
+    <line x1="230" y1="270" x2="250" y2="225"/><line x1="570" y1="270" x2="550" y2="225"/>
+  </g>
+</svg>

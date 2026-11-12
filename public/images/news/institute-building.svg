@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t">
+  <title id="t">Illustration of a new three-storey school building</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ccbf0"/>
+      <stop offset="1" stop-color="#e6f4fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#sky)"/>
+  <circle cx="660" cy="80" r="40" fill="#ffd27a"/>
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="150" cy="80" rx="60" ry="18"/><ellipse cx="190" cy="68" rx="40" ry="16"/>
+    <ellipse cx="520" cy="110" rx="50" ry="14"/>
+  </g>
+  <!-- ground -->
+  <rect y="330" width="800" height="70" fill="#e8c98a"/>
+  <rect y="326" width="800" height="8" fill="#d7b06a"/>
+  <!-- building G+2 -->
+  <g transform="translate(250 110)">
+    <rect width="300" height="220" fill="#ffffff" stroke="#1a3f8f" stroke-width="4"/>
+    <rect x="-10" y="-14" width="320" height="18" fill="#1a3f8f"/>
+    <rect y="70" width="300" height="6" fill="#5bb4e8"/>
+    <rect y="146" width="300" height="6" fill="#5bb4e8"/>
+    <g fill="#2a5bb5">
+      <rect x="22" y="18" width="44" height="38" rx="4"/><rect x="92" y="18" width="44" height="38" rx="4"/>
+      <rect x="164" y="18" width="44" height="38" rx="4"/><rect x="234" y="18" width="44" height="38" rx="4"/>
+      <rect x="22" y="94" width="44" height="38" rx="4"/><rect x="92" y="94" width="44" height="38" rx="4"/>
+      <rect x="164" y="94" width="44" height="38" rx="4"/><rect x="234" y="94" width="44" height="38" rx="4"/>
+      <rect x="22" y="168" width="44" height="38" rx="4"/><rect x="234" y="168" width="44" height="38" rx="4"/>
+    </g>
+    <g fill="#8ccbf0" opacity="0.7">
+      <rect x="26" y="22" width="14" height="30"/><rect x="96" y="22" width="14" height="30"/>
+      <rect x="168" y="22" width="14" height="30"/><rect x="238" y="22" width="14" height="30"/>
+      <rect x="26" y="98" width="14" height="30"/><rect x="96" y="98" width="14" height="30"/>
+      <rect x="168" y="98" width="14" height="30"/><rect x="238" y="98" width="14" height="30"/>
+    </g>
+    <!-- arched entrance -->
+    <path d="M110 220 L110 190 Q150 150 190 190 L190 220Z" fill="#1a3f8f"/>
+    <path d="M122 220 L122 194 Q150 166 178 194 L178 220Z" fill="#f2c14e"/>
+  </g>
+  <!-- steps and path -->
+  <rect x="345" y="330" width="110" height="8" fill="#c99d55"/>
+  <path d="M370 338 L430 338 L470 400 L330 400Z" fill="#d7b06a"/>
+  <!-- acacia trees -->
+  <g transform="translate(120 330)">
+    <rect x="-5" y="-70" width="10" height="70" fill="#7a5a32"/>
+    <ellipse cy="-80" rx="70" ry="22" fill="#4f8a3c"/>
+  </g>
+  <g transform="translate(690 330)">
+    <rect x="-4" y="-55" width="8" height="55" fill="#7a5a32"/>
+    <ellipse cy="-62" rx="52" ry="17" fill="#4f8a3c"/>
+  </g>
+</svg>

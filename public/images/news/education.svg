@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t">
+  <title id="t">Illustration of an open book, graduation cap and pencil</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6f4fc"/>
+      <stop offset="1" stop-color="#8ccbf0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <!-- desk -->
+  <rect y="320" width="800" height="80" fill="#1a3f8f"/>
+  <rect y="316" width="800" height="8" fill="#2a5bb5"/>
+  <!-- open book -->
+  <g transform="translate(400 300)">
+    <path d="M0 0 Q-90 -30 -190 -10 L-190 -150 Q-90 -170 0 -140Z" fill="#ffffff" stroke="#1a3f8f" stroke-width="4"/>
+    <path d="M0 0 Q90 -30 190 -10 L190 -150 Q90 -170 0 -140Z" fill="#ffffff" stroke="#1a3f8f" stroke-width="4"/>
+    <line x1="0" y1="0" x2="0" y2="-140" stroke="#1a3f8f" stroke-width="4"/>
+    <g stroke="#8ccbf0" stroke-width="5" stroke-linecap="round">
+      <line x1="-160" y1="-120" x2="-30" y2="-126"/><line x1="-160" y1="-96" x2="-30" y2="-102"/>
+      <line x1="-160" y1="-72" x2="-30" y2="-78"/><line x1="-160" y1="-48" x2="-60" y2="-52"/>
+      <line x1="30" y1="-126" x2="160" y2="-120"/><line x1="30" y1="-102" x2="160" y2="-96"/>
+      <line x1="30" y1="-78" x2="160" y2="-72"/><line x1="30" y1="-52" x2="120" y2="-48"/>
+    </g>
+  </g>
+  <!-- graduation cap -->
+  <g transform="translate(400 120)">
+    <path d="M0 -50 L110 -10 L0 30 L-110 -10Z" fill="#1a3f8f"/>
+    <path d="M-60 8 L-60 40 Q0 70 60 40 L60 8 L0 30Z" fill="#2a5bb5"/>
+    <line x1="80" y1="-2" x2="80" y2="48" stroke="#f2c14e" stroke-width="5"/>
+    <circle cx="80" cy="54" r="9" fill="#f2c14e"/>
+  </g>
+  <!-- pencil -->
+  <g transform="translate(640 280) rotate(-35)">
+    <rect x="-70" y="-10" width="120" height="20" fill="#f2c14e"/>
+    <rect x="-86" y="-10" width="16" height="20" fill="#e88a8a"/>
+    <path d="M50 -10 L74 0 L50 10Z" fill="#e8c98a"/><path d="M66 -3 L74 0 L66 3Z" fill="#333"/>
+  </g>
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="150" cy="90" r="6"/><circle cx="210" cy="150" r="4"/><circle cx="600" cy="80" r="6"/><circle cx="660" cy="150" r="4"/>
+  </g>
+  <!-- small plant -->
+  <g transform="translate(150 320)">
+    <rect x="-22" y="-36" width="44" height="36" rx="4" fill="#5bb4e8"/>
+    <path d="M0 -36 Q-30 -80 -40 -90 Q-5 -80 0 -36Z M0 -36 Q30 -80 40 -95 Q5 -80 0 -36Z M0 -36 L0 -100" fill="#4f8a3c" stroke="#4f8a3c" stroke-width="3"/>
+  </g>
+</svg>

@@ -4,34 +4,34 @@
     "category": "Fundraising",
     "date": "24 July 2026",
     "summary": "A fundraising event was held in Jijiga on 24 July 2026 to support education programming.",
-    "image": "/images/qoris-building.webp"
+    "image": "/images/news/fundraising.svg"
   },
   {
     "title": "New QORRAHEY Institute Building Completed",
     "category": "Facilities",
     "date": "2026",
     "summary": "The new G+2 QORRAHEY Institute building has been completed.",
-    "image": "/images/qoris-building.webp"
+    "image": "/images/news/institute-building.svg"
   },
-   {
+  {
     "title": "Fundraising Event in Jijiga",
     "category": "Fundraising",
     "date": "24 July 2026",
     "summary": "A fundraising event was held in Jijiga on 24 July 2026 to support education programming.",
-    "image": "/images/qoris-building.webp"
+    "image": "/images/news/education.svg"
   },
   {
     "title": "New QORRAHEY Institute Building Completed",
     "category": "Facilities",
     "date": "2026",
     "summary": "The new G+2 QORRAHEY Institute building has been completed.",
-    "image": "/images/qoris-building.webp"
+    "image": "/images/news/institute-building.svg"
   },
   {
     "title": "QORIS Recognised by the Regional President",
     "category": "Recognition",
     "date": "",
     "summary": "QORIS has been recognised by the President of the Somali Regional State.",
-    "image": "/images/qoris-stadium.webp"
+    "image": "/images/news/recognition.svg"
   }
 ]
